@@ -1,0 +1,283 @@
+* {padding: 0; margin: 0;}
+
+html {font-family: 'Segoe UI';}
+
+
+.container {
+    max-width: 100%;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    position: relative;
+}
+
+.menuAtas {
+    width: 1200px; 
+    overflow: hidden; 
+    margin: auto;
+    z-index: 1;
+    padding: 15px 0px;
+}
+
+.menuAtas .kiri {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuAtas .kanan {
+    text-align: right;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 0;
+}
+
+.menuAtas .kiri a {
+    color: #100c08;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+  float: right;
+}
+
+nav ul ul {
+    display: block;
+    position: absolute;
+}
+
+nav ul li {
+    margin: 0 10px;
+    list-style: none;
+    float: left;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #100c08;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    float: none;
+    position: relative;
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    z-index: 1;
+    margin-left: -183px;
+    text-align: left;
+}
+
+nav ul li ul li a {
+    color: #100c08;
+}
+
+article {
+    margin: auto;
+    width: auto;
+}
+
+.container2 {
+    width: auto;
+    height: auto;
+    margin: auto;
+    position: relative;
+    background-color: #f1f1f1;
+}
+
+.articleBawah {
+    position: relative;
+    width: 1200px;
+    height: auto;
+    margin: auto;
+    overflow: hidden;
+    padding: 40px;
+}
+
+.articleBawah .artKiri {
+    position: relative;
+    float: left;
+    width: 450px;
+    top: 15px;
+}
+
+.artKiri h1 {
+    font-size: 30px;
+    font-weight: normal;
+    padding: 10px 0px;
+}
+
+.artKiri p {
+    margin-right: 20px;
+    padding: 20px 0px;
+    padding-bottom: 50px;
+    text-align: justify;
+    line-height: 25px;
+    color: black;
+}
+
+.artKiri a {
+    text-decoration: none;
+    color: white;
+    background-color: #100c08;
+    padding: 12px 20px;
+    border-radius: 5px;
+}
+
+.articleBawah .artKanan {
+    width: 550px; 
+    float: right;
+    position: relative;
+}
+
+.articleBawah .artKanan img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #100c08;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container4 {
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.fAtas {
+    position: relative;
+    top: 80px;
+    height: 200px;
+}
+
+.fAtas .fKiri {
+    float: left;
+    text-align: left;
+    width: 400px;
+    color: white;
+    margin-right: 45px;
+}
+
+.fAtas .fKiri a {
+    text-decoration: none;
+}
+
+.fAtas .fKiri img {
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.fAtas .fKiri img:hover {
+    width: 35px;
+}
+
+.fAtas .fKiri p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.fAtas .fTengah {
+    float: left;
+    text-align: left;
+    position: relative;
+    color: aliceblue;
+    width: 330px;
+}
+
+
+.fAtas .fTengah a {
+    color: white;
+    text-decoration: none;
+}
+
+.fAtas .fTengah .news {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.fAtas .fTengah .newsKiri {
+    float: left;
+    width: 50px;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+
+.fAtas .fTengah .newsKiri img{
+    width: 100%;
+}
+
+.fAtas .fKanan {
+    float: right;
+    text-align: left;
+    position: relative;
+    color: white;
+    width: 400px;
+}
+
+.uLine {
+    width: 50px; 
+    border-bottom: 2px solid grey;
+}
+
+.fAtas .fKanan input {
+    width: 250px;
+    padding: 15px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+
+.fAtas .fKanan button {
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-top: 25px;
+}
+
+.fAtas .fKanan p {
+    margin-top: 25px;
+}
+
+.fBawah {
+    position: relative;
+    color: white;
+    float: left;
+    width: 1200px;
+    top: 200px;
+    border-top: gray 3px solid;
+}
+
+.fBawah p {
+    text-align: center;
+    margin-top: 10px;
+}
+

@@ -1,0 +1,445 @@
+* {padding: 0; margin: 0;}
+
+html {font-family: 'Segoe UI';}
+
+
+.container {
+    max-width: 100%;
+    width: 1200px;
+    margin: auto;
+    position: relative;
+}
+
+.menuAtas {
+    width: 1200px; 
+    overflow: hidden; 
+    margin: auto;
+    z-index: 1;
+    padding: 15px 0px;
+}
+
+.menuAtas .kiri {
+    float: left;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.menuAtas .kanan {
+    text-align: right;
+    float: right;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    padding-right: 0;
+}
+
+.menuAtas .kiri a {
+    color: #100c08;
+    text-decoration: none;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+nav {
+  float: right;
+}
+
+nav ul ul {
+    display: block;
+    position: absolute;
+}
+
+nav ul li {
+    margin: 0 10px;
+    list-style: none;
+    float: left;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 17px;
+    font-weight: bold;
+    color: #100c08;
+}
+
+nav ul li ul {
+    display: none;
+}
+
+nav ul li:hover > ul {
+    display: block;
+}
+
+nav ul ul li {
+    float: none;
+    position: relative;
+    background-color: white;
+    width: 200px;
+    padding: 20px;
+    z-index: 1;
+    margin-left: -183px;
+    text-align: left;
+}
+
+nav ul li ul li a {
+    color: #100c08;
+}
+
+.container2 {
+    width: 1200px;
+    position: relative;
+    float: none;
+    overflow: hidden;
+    height: auto;
+    margin: auto;
+    top: 70px;
+}
+
+.container2 .kiri {
+    float: left;
+    width: 70%;
+    height: 1700px;
+}
+
+.homeA {
+    margin-bottom: 20px;
+}
+
+.aProd {
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.show {
+    float: left;
+    margin-top: 10px;
+}
+
+select {
+    float: right;
+    position: relative;
+    text-align: justify;
+    padding: 10px;
+    left: -1px;
+}
+
+.imgGal {
+    width: 100%;
+    height: 1320px;
+    overflow: hidden;
+    position: relative;
+    top: 10px;
+}
+
+.imgGal .IMG1 {
+    position: relative; 
+    float: left; 
+    width: 200px;
+    margin-right: 88px;
+}
+
+.imgGal .IMG2 {
+    position: relative; 
+    float: left; 
+    width: 200px;
+}
+
+.imgGal .IMG3 {
+    position: relative; 
+    float: left; 
+    width: 200px;
+    margin-left: 88px;
+}
+
+.imgGal .IMG1 img{
+    width: 260px;
+    float: left;
+    border: #100c08 2px solid;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+    
+}
+
+.imgGal .IMG2 img {
+    width: 260px;
+    float: left;
+    border: #100c08 2px solid;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+.imgGal .IMG3 img{
+    width: 260px;
+    float: left;
+    border: #100c08 2px solid;
+    border-radius: 10px;
+    margin-top: 50px; 
+    margin-bottom: 10px;
+}
+
+.imgGal .IMG1 a, .IMG2 a, .IMG3 a {
+    text-decoration: none;
+    color: #100c08;
+}
+
+.bintang {
+    margin-bottom: 10px;
+}
+
+.IMG1 .namaItem, .IMG2 .namaItem, .IMG3 .namaItem {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.IMG1 p, .IMG2 p, .IMG3 p {
+    margin-bottom: 30px;
+}
+
+.IMG1 a.addCart, .IMG2 a.addCart, .IMG3 a.addCart {
+    background-color: #100c08;
+    color:white;
+    padding: 5px 15px;
+    border-radius: 3px;
+    font-weight: bold;
+}
+
+.menuIMG {
+    position: relative;
+    float: none;
+    top: 100px;
+    text-align: center;
+}
+
+.menuIMG a.inWeb {
+    background-color: #100c08;
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: #100c08 1px solid;
+}
+
+.menuIMG a.outWeb {
+    background-color: white;
+    color: #100c08;
+    text-decoration: none;
+    padding: 10px 15px;
+    border: #100c08 1px solid;
+    margin-left: 5px;
+}
+
+
+.container2 .kanan {
+    float: right;
+    width: 25%;
+    height: 500px;
+    padding: 20px;
+    background-color: white;
+}
+
+.kanan .judulAtas {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.kategori {
+    float: left;
+    position: relative;
+    color: aliceblue;
+    width: 330px;
+}
+
+.kategori .kategoriKiri {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.kategori .kategoriKiri img {
+    margin-bottom: 25px;
+    width: 50px;
+}
+
+.kategori .kategoriKanan {
+    float: left;
+    text-align: right;
+    margin-left: 10px;
+}
+
+.kategori .kategoriKanan a {
+    text-align: left;
+    text-decoration: none;
+    color: #100c08;
+}
+
+.searchKanan {
+    margin-bottom: 40px;
+}
+
+.searchKanan label {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.searchKanan input {
+    width: 250px;
+    padding: 7px 4px;
+    margin-top: 10px;
+}
+
+.searchKanan button.but1 {
+    padding: 7px 10px;
+    background-color: #100c08;
+    color: white;
+    border-radius: 5px;
+}
+
+.social a {
+    text-decoration: none;
+}
+
+.kategoriKanan p {
+    
+    color: #100c08;
+}
+
+.social img {
+    width: 50px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+
+footer {
+    display: flex;
+    width: 100%;
+    background-color: #100c08;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.container4 {
+    width: 1200px;
+    height: 550px;
+    margin: auto;
+    position: relative;
+    text-align: center;
+}
+.fAtas {
+    position: relative;
+    top: 80px;
+    height: 200px;
+}
+
+.fAtas .fKiri {
+    float: left;
+    text-align: left;
+    width: 400px;
+    color: white;
+    margin-right: 45px;
+}
+
+.fAtas .fKiri a {
+    text-decoration: none;
+}
+
+.fAtas .fKiri img {
+    width: 30px;
+    margin-top: 10px;
+    margin-right: 20px;
+}
+
+.fAtas .fKiri img:hover {
+    width: 35px;
+}
+
+.fAtas .fKiri p {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    text-align: justify;
+    line-height: 20px;
+}
+
+.fAtas .fTengah {
+    float: left;
+    text-align: left;
+    position: relative;
+    color: aliceblue;
+    width: 330px;
+}
+
+
+.fAtas .fTengah a {
+    color: white;
+    text-decoration: none;
+}
+
+.fAtas .fTengah .news {
+    padding-top: 20px;
+    padding-bottom: 25px;
+}
+
+.fAtas .fTengah .newsKiri {
+    float: left;
+    width: 50px;
+    padding-right: 10px;
+    padding-top: 4px;
+}
+
+
+.fAtas .fTengah .newsKiri img{
+    width: 100%;
+}
+
+.fAtas .fKanan {
+    float: right;
+    text-align: left;
+    position: relative;
+    color: white;
+    width: 400px;
+}
+
+.uLine {
+    width: 50px; 
+    border-bottom: 2px solid grey;
+}
+
+.fAtas .fKanan input {
+    width: 250px;
+    padding: 15px;
+    padding-bottom: 14px;
+    border-radius: 5px;
+}
+
+
+.fAtas .fKanan button {
+    display: inline-block;
+    background-color: white;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 3px;
+    margin-top: 25px;
+}
+
+.fAtas .fKanan p {
+    margin-top: 25px;
+}
+
+.fBawah {
+    position: relative;
+    color: white;
+    float: left;
+    width: 1200px;
+    top: 200px;
+    border-top: gray 3px solid;
+}
+
+.fBawah p {
+    text-align: center;
+    margin-top: 10px;
+}
